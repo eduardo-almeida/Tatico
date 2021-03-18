@@ -78,6 +78,10 @@
     <Compile Include="Assets\Script\Core\IAction.cs" />
     <Compile Include="Assets\Script\Menu\MenuInicial.cs" />
     <Compile Include="Assets\Script\Moviment\Movimentar.cs" />
+    <Compile Include="Assets\Script\State Machine\State.cs" />
+    <Compile Include="Assets\Script\State Machine\StateMachineController.cs" />
+    <Compile Include="Assets\Script\State Machine\States\LoadState.cs" />
+    <Compile Include="Assets\Script\State Machine\States\RoamState.cs" />
     <None Include="Assets\Baixados\Terreno\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
     <None Include="Assets\Baixados\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Baixados\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

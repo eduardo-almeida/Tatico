@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 708, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 708, y: 471}
+  m_MaxSize: {x: 18003, y: 14021}
   vertical: 0
-  controlID: 151
+  controlID: 325
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,7 +87,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 421}
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 152
+  controlID: 295
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,9 +207,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 64.31022, y: 0.68956316, z: 70.052055}
+    m_Target: {x: 61.630577, y: -0.338809, z: 70.95932}
     speed: 2
-    m_Value: {x: 64.31022, y: 0.68956316, z: 70.052055}
+    m_Value: {x: 61.630577, y: -0.338809, z: 70.95932}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -255,9 +255,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15234254, y: -0.30385077, z: 0.049287543, w: -0.9391682}
+    m_Target: {x: -0.21343683, y: -0.15256843, z: 0.033766396, w: -0.96437925}
     speed: 2
-    m_Value: {x: -0.15234256, y: -0.3038508, z: 0.04928755, w: -0.93916833}
+    m_Value: {x: -0.21343684, y: -0.15256844, z: 0.0337664, w: -0.9643793}
   m_Size:
     m_Target: 4.856824
     speed: 2
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -19918
+  m_LastSelectedObjectID: -21138
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -470,10 +470,10 @@ MonoBehaviour:
     y: 0
     width: 390
     height: 731
-  m_MinSize: {x: 232, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 232, y: 471}
+  m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 80
+  controlID: 326
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -620,20 +620,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/Menu
+    - Assets/Script/State Machine
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Script/Menu
+  - Assets/Script/State Machine
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\teste\Tatico
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 367f0000
-    m_LastClickedID: 32566
-    m_ExpandedIDs: 00000000027f0000047f0000067f0000087f00000a7f00000c7f00000e7f0000107f0000127f0000307f0000
+    m_SelectedIDs: 687f0000
+    m_LastClickedID: 32616
+    m_ExpandedIDs: 00000000007f0000027f0000047f0000067f0000087f00000a7f00000c7f00000e7f0000107f0000667f0000687f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -661,7 +661,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000027f0000047f0000067f0000087f00000a7f00000c7f00000e7f0000107f0000127f0000
+    m_ExpandedIDs: 00000000007f0000027f0000047f0000067f0000087f00000a7f00000c7f00000e7f0000107f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -686,24 +686,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 6eadffff
+    m_LastClickedInstanceID: -21138
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 724c010018600300547505001a7f0000227f0000823e0000207f00000aa30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: LoadState
+      m_OriginalName: LoadState
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 34292
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
@@ -780,7 +780,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: -21138
   m_LastVerticalScrollValue: 0
 --- !u!114 &17
 MonoBehaviour:
